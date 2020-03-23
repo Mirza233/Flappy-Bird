@@ -5,7 +5,7 @@ win = pygame.display.set_mode((w,w))
 vy = 0
 x = 10
 y = 420//3
-birdImg = pygame.image.load("queenB.png")
+birdImg = pygame.image.load("birdIMG.png")
 xt,xt2 = w,w+250
 h,h2 = random.randint(200,w-150),random.randint(200,w-150)
 def bird(x,y):
